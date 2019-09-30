@@ -10,13 +10,13 @@ class ArticlesController < ApplicationController
   def new
     @article = Article.new
   end
-  
-  def edit 
+
+  def edit
     @article = Article.find(params[:id])
-  end 
+  end
 
   def update
-  end 
+  end
 
   def create
     @article = Article.new
